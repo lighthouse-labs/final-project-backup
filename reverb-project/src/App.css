@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 } */
+
+.pageWrapper {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 1fr);
+}
+
+.nav-bar-left {
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 7;
+}
+
+.middle-section {
+  background-color: green;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 7;
+}
+
+.nav-bar-right {
+  background-color: blue;
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
