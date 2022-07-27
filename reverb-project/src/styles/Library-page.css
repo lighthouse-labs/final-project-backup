@@ -1,0 +1,50 @@
+.Page-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page-top {
+  border: 5px solid white;
+}
+
+.Page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Left-bar {
+  justify-content: left;
+  display: flex-;
+  background-color: green;
+  
+}
+
+.Page-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: fill;
+  align-content: stretch;
+}
+
+.Center-content {
+  display: flex;
+  /* flex-direction: row; */
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+}
+
+.Right-bar {
+  justify-content: right;
+  background-color: orange;
+}
+
+.Play-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+
+}
+
